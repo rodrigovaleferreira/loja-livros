@@ -65,3 +65,56 @@
 .logo_imagem{
     width: 7vw;
 }
+
+.opcoes{
+    display: none;
+}
+
+.container_titulo{
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .container_titulo, .container_titulo-negrito{
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+    }
+    .container_titulo{
+        font-weight: 400;
+        display: block;
+    }
+    .container_titulo-negrito{
+        font-weight: 700;
+    }
+    
+    .opcoes{
+        display: flex;
+    }
+    .opcoes_itens{
+        padding: 0 1em;
+        text-transform: uppercase;
+        align-items: center;
+    }
+
+    .opcoes_links{
+        color: var(--cor-preto);
+    }
+
+    .container__imagem{
+        width: auto;
+    }
+    .container{
+        margin-left: 1em;
+    }
+    .container__imagem_transparente{
+        display: none;
+    }
+
+    .opcoes_botao:checked~ .lista-menu{
+        display: block;
+        width: auto;
+    }
+    .opcoes_botao{
+        display: none;
+    }
+}

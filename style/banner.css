@@ -34,3 +34,15 @@
     background-repeat: no-repeat;
     background-position-x: left;
 }
+
+@media screen and (min-width:1024px){
+    .banner_titulo{
+        font-size: 36px;
+    }
+    .banner_pesquisa{
+        width: 55%;
+    }
+    .banner_pesquisa::placeholder{
+        background-position: 7em;
+    }
+}
