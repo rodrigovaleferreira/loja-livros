@@ -21,6 +21,13 @@
 
 .container__imagem{
     padding: 0.6em;
+
+    
+    width: 10vw;
+}
+
+.container__imagem_usuario{
+    width: 7vw;
 }
 
 .lista-menu{
