@@ -86,7 +86,7 @@
     }
     .swiper-button-next,.swiper-button-prev{
         display: block;
-        top: 35%;
+        top: 65%;
     }
     .card{
         width: 80%;
@@ -94,4 +94,30 @@
 
     }
 
+}
+
+@media screen and (min-width:1500px){
+    .carrosel_container{
+        display: flex;
+        align-items: center;
+        margin: 0 5em 5em 2em;
+        margin-left: 50px;
+        
+    }
+
+    .swiper-pagination{
+        margin: 2em 0 1em 0;
+    }
+    .swiper{
+        width: 60%;
+    }
+    .card{
+        margin-left: 50px;
+        width: 40vw;
+        height: auto;
+        margin-top: 8%;
+    }
+    .swiper-button-next,.swiper-button-prev{
+        top: 58%;
+    }
 }

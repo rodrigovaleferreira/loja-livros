@@ -67,9 +67,17 @@
         </ul>
 
         <div class="container">
-            <a class="container__imagem container__imagem_transparente" href="#" ><img src="./img/Favoritos.svg" alt="favoritos"></a>
-            <a class="container__imagem" href="#"><img src="./img/Compras.svg" alt=""></a>
-            <a class="container__imagem container__imagem_usuario" href="#"><img src="./img/Usuario.png" alt=""></a>
+            <a class="container__imagem container__imagem_transparente" href="#" >
+                <img src="./img/Favoritos.svg" alt="favoritos">
+            </a>
+            <a class="container__imagem container_link" href="#">
+                <img src="./img/Compras.svg" alt="">
+                <p class="container_texto">Minha sacola</p>
+            </a>
+            <a class="container__imagem container__imagem_usuario container_link" href="#">
+                <img src="./img/Usuario.png" alt="">
+                <p class="container_texto">Meu perfil</p>
+            </a>
         </div>
     </header>
 
@@ -82,7 +90,8 @@
     <section class="carrosel">
         <h2 class="carrosel_titulo">Novos lançamentos</h2>
         <!-- Slider main container -->
-<div class="swiper">
+        <div class="carrosel_container">
+        <div class="swiper">
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
 
@@ -96,11 +105,10 @@
       <div class="swiper-slide"><img src="./img/Tuning.png" alt="livro Tuning"></div>
       <div class="swiper-slide"><img src="./img/Portugol.png" alt="livro Portugol"></div>
     </div>
-
-  
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
+    </div>
 
   <div class="card">
     <!-- 1° linha -->
@@ -129,11 +137,13 @@
         <a href="#" class="botoes_ancora">Saiba mais</a>
     </div>
   </div>
+</div>
 </section>
 
     <section class="carrosel">
         <h2 class="carrosel_titulo">Mais vendidos</h2>
         <!-- Slider main container -->
+        <div class="carrosel_container">
 <div class="swiper">
         <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
@@ -153,7 +163,7 @@
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
-    
+    </div>
     <div class="card">
         <!-- 1° linha -->
         <div class="card_descricao">
@@ -182,6 +192,7 @@
             <a href="#" class="botoes_ancora">Saiba mais</a>
         </div>
       </div>
+    </div>
     </section>
 
     <section class="topicos">
