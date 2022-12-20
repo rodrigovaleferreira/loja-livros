@@ -100,7 +100,7 @@
     .carrosel_container{
         display: flex;
         align-items: center;
-        margin: 0 5em 5em 2em;
+        margin: 0 5em 3em 2em;
         margin-left: 50px;
         
     }
@@ -119,5 +119,11 @@
     }
     .swiper-button-next,.swiper-button-prev{
         top: 58%;
+    }
+    .descricao_titulo{
+        font-size: 32px;
+    }
+    .descricao_texto{
+        font-size: 16px;
     }
 }
