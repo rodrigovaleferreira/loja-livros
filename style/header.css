@@ -78,6 +78,14 @@
     display: none;
 }
 
+.container_botao:checked ~ .container-rotulo > .cabecalho_menu_hamburguer{
+    background-image: url("../img/menu_black_24dp\ 1.png");
+}
+
+.container_botao:checked ~ .container-rotulo{
+    background: var(--azul-degrade);
+}
+
 @media screen and (min-width:1024px) {
     .container_titulo, .container_titulo-negrito{
         font-family: var(--fonte-secundaria);

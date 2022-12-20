@@ -37,6 +37,22 @@ hr{
     .rodape_titulo{
         font-size: 24px;
     }
+    .opcoes_botao:checked ~ .opcoes-rotulo > .opcoes_itens{
+        background: var(--azul-degrade);
+        color: #ffffff;
+    }
+
+    .opcoes_itens{
+        padding: 2em 1em;
+    }
+
+    .lista-menu_item:hover{
+        background: var(--azul-degrade);
+    }
+
+    .lista-menu_item:hover > .lista-menu_link{
+        -webkit-text-fill-color: #ffffff;
+    }
 }
 
 @media screen and (min-width:1500px){
